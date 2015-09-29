@@ -19,7 +19,7 @@
 	top:150px;
 	left:300px;
 	z-index: 100;
-	animation: plane 3s linear infinite;
+	animation: plane 1.2s linear infinite;
 }
 .plane_body{
 	background-image: url('f18.gif');
@@ -86,17 +86,17 @@
 	border-bottom:none;
 	background-color: #fffff0;
 	content: "";
-	display: block;
-	height: 80px;
 	left: 20px;
+	border-radius: 100px;
+	display: block;
 	position: relative;
+	height: 80px;
 	top: -40px;
 	width: 110px;
-	border-radius: 100px;
 }
 .clds2:after{
-	background-color: #fffff0;
 	border: 1px solid #000009;
+	background-color: #fffff0;
 	border-bottom:none;
 	content: "";
 	display: block;
@@ -148,4 +148,25 @@
 	100% {
 		left:417px;
 	}
+}
+.b1, .b2 {
+	width: 100px;
+	text-align: center;
+	margin: 5px;
+	border-radius: 3%;
+	font-size: 20px;
+	margin: auto;
+	background-color: #ddd;
+	margin-top: 10px;
+	height: 50px;
+	vertical-align: center;
+	padding-top: 
+}
+.b1:hover, .b2:hover {
+	background-color: black;
+	color:white;
+}
+
+.b1:target {
+	
 }
